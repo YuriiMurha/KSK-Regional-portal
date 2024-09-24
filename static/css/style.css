@@ -1,0 +1,1901 @@
+.map-iframe {
+  border: none;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
+  width: 100%;
+  height: 1000px;
+}
+#map {
+  width: 100%;
+  height: 1000px;
+}
+
+#embed-title .title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #0078d4;
+  color: white;
+  text-align: center;
+}
+:root {
+    --dl-size-size-large: 144px;
+    --dl-size-size-small: 48px;
+    --dl-size-size-medium: 96px;
+    --dl-size-size-xlarge: 192px;
+    --dl-size-size-xsmall: 16px;
+    --dl-space-space-unit: 16px;
+    --dl-size-size-xxlarge: 288px;
+    --dl-size-size-maxwidth: 1400px;
+    --dl-color-default-white: rgba(255, 255, 255, 1);
+    --dl-color-theme-accent1: #FFFFFF;
+    --dl-color-theme-accent2: #F5D1B0;
+    --dl-radius-radius-round: 50%;
+    --dl-color-theme-primary1: #BF4408;
+    --dl-color-theme-primary2: #E65103;
+    --dl-space-space-halfunit: 8px;
+    --dl-space-space-sixunits: 96px;
+    --dl-space-space-twounits: 32px;
+    --dl-color-wwwbbccom-red: rgba(235, 0, 0, 1);
+    --dl-radius-radius-radius2: 2px;  --dl-radius-radius-radius4: 4px;
+    --dl-radius-radius-radius8: 8px;
+    --dl-space-space-fiveunits: 80px;
+    --dl-space-space-fourunits: 64px;
+    --dl-color-default-amorauth: rgba(239, 58, 76, 1);
+    --dl-color-default-darkblue: rgba(0, 64, 128, 1);
+    --dl-color-goparitycom-elm: rgba(25, 147, 118, 1);
+    --dl-color-goparitycom-sun: rgba(255, 174, 18, 1);
+    --dl-color-theme-secondary1: #FFFFFF;
+    --dl-color-theme-secondary2: #FBF1EB;
+    --dl-space-space-threeunits: 48px;
+    --dl-color-default-deepgreen: rgba(40, 167, 69, 1);
+    --dl-color-default-lightgray: rgba(245, 245, 245, 1);
+    --dl-color-goparitycom-alto: rgba(210, 210, 210, 1);
+    --dl-color-goparitycom-eden: rgba(13, 59, 80, 1);
+    --dl-color-goparitycom-ming: rgba(55, 100, 120, 1);
+    --dl-color-goparitycom-tara: rgba(215, 242, 226, 1);
+    --dl-color-wwwbbccom-abbey: rgba(84, 86, 88, 1);
+    --dl-color-wwwbbccom-black: rgba(0, 0, 0, 1);
+    --dl-color-wwwbbccom-shark: rgba(32, 34, 36, 1);
+    --dl-color-wwwbbccom-white: rgba(255, 255, 255, 1);
+    --dl-color-goparitycom-black: rgba(0, 0, 0, 1);
+    --dl-color-goparitycom-polar: rgba(246, 250, 253, 1);
+    --dl-color-goparitycom-raven: rgba(115, 125, 135, 1);
+    --dl-color-goparitycom-white: rgba(255, 255, 255, 1);
+    --dl-color-theme-neutral-dark: #191818;
+    --dl-color-wwwbbccom-bombay: rgba(255, 255, 255, 1);
+    --dl-radius-radius-cardradius: 8px;
+    --dl-color-goparitycom-geyser: rgba(209, 218, 226, 1);
+    --dl-color-goparitycom-mystic: rgba(226, 233, 236, 1);
+    --dl-color-theme-neutral-light: #FBFAF9;
+    --dl-color-wwwbbccom-capecod: rgba(58, 60, 62, 1);
+    --dl-radius-radius-imageradius: 8px;
+    --dl-radius-radius-inputradius: 24px;
+    --dl-color-default-brightyellow: rgba(255, 204, 0, 1);
+    --dl-color-goparitycom-emerald: rgba(52, 196, 114, 1);
+    --dl-color-goparitycom-white02: rgba(255, 255, 255, 0.0020000000949949026);  --dl-radius-radius-buttonradius: 24px;
+    --dl-color-goparitycom-aquahaze: rgba(244, 246, 249, 1);
+    --dl-color-goparitycom-cinnabar: rgba(234, 67, 53, 1);
+    --dl-color-goparitycom-concrete: rgba(242, 242, 242, 1);
+    --dl-color-goparitycom-koromiko: rgba(255, 182, 94, 1);
+    --dl-color-wwwbbccom-porcelain: rgba(255, 255, 255, 1);
+    --dl-color-wwwbbccom-woodsmoke: rgba(20, 22, 24, 1);
+    --dl-space-space-oneandhalfunits: 24px;
+    --dl-color-goparitycom-mineshaft: rgba(57, 57, 57, 1);
+    --dl-color-investinregionsru-red: rgba(255, 0, 0, 1);
+    --dl-color-databratislavask-alto: rgba(211, 211, 211, 1);
+    --dl-color-goparitycom-aquahaze75: rgba(244, 246, 249, 0.75);
+    --dl-color-goparitycom-athensgray: rgba(229, 231, 235, 1);
+    --dl-color-investinregionsru-alto: rgba(221, 221, 221, 1);
+    --dl-color-investinregionsru-corn: rgba(232, 185, 9, 1);
+    --dl-color-investinregionsru-gray: rgba(144, 144, 144, 1);
+    --dl-color-databratislavask-black: rgba(0, 0, 0, 1);
+    --dl-color-databratislavask-white: rgba(255, 255, 255, 1);
+    --dl-color-goparitycom-graychateau: rgba(156, 163, 175, 1);
+    --dl-color-investinregionsru-black: rgba(0, 0, 0, 1);
+    --dl-color-investinregionsru-tango: rgba(243, 112, 33, 1);
+    --dl-color-investinregionsru-white: rgba(254, 254, 254, 1);
+    --dl-color-wwwgeoportalksksk-alto: rgba(221, 221, 221, 1);
+    --dl-color-wwwgeoportalksksk-foam: rgba(207, 244, 252, 1);
+    --dl-color-goparitycom-chateaugreen: rgba(52, 168, 83, 1);
+    --dl-color-goparitycom-chathamsblue: rgba(21, 75, 100, 1);
+    --dl-color-goparitycom-goldentainoi: rgba(255, 200, 75, 1);
+    --dl-color-investinregionsru-shiraz: rgba(162, 12, 51, 1);
+    --dl-color-investinregionsru-silver: rgba(204, 204, 204, 1);
+    --dl-color-wwwgeoportalksksk-black: rgba(0, 0, 0, 1);
+    --dl-color-wwwgeoportalksksk-white: rgba(255, 255, 255, 1);
+    --dl-color-databratislavask-codgray: rgba(21, 21, 21, 1);
+    --dl-color-databratislavask-tundora: rgba(74, 74, 74, 1);
+    --dl-color-databratislavask-white02: rgba(255, 255, 255, 0.0020000000949949026);
+    --dl-color-goparitycom-silverchalice: rgba(166, 166, 166, 1);
+    --dl-color-investinregionsru-black30: rgba(0, 0, 0, 0.30000001192092896);
+    --dl-color-investinregionsru-black40: rgba(0, 0, 0, 0.4000000059604645);
+    --dl-color-investinregionsru-black50: rgba(0, 0, 0, 0.5);
+    --dl-color-investinregionsru-boulder: rgba(119, 119, 119, 1);
+    --dl-color-investinregionsru-funblue: rgba(27, 76, 156, 1);
+    --dl-color-investinregionsru-gallery: rgba(240, 240, 240, 1);
+    --dl-color-investinregionsru-thunder: rgba(35, 31, 32, 1);
+    --dl-color-wwwgeoportalksksk-silver: rgba(198, 198, 198, 1);
+    --dl-color-databratislavask-dovegray: rgba(106, 106, 106, 1);
+    --dl-color-databratislavask-scorpion: rgba(92, 92, 92, 1);
+    --dl-color-goparitycom-cornflowerblue: rgba(66, 133, 244, 1);
+    --dl-color-goparitycom-periwinklegray: rgba(219, 229, 241, 1);
+    --dl-color-investinregionsru-dovegray: rgba(102, 102, 102, 1);
+    --dl-color-investinregionsru-fungreen: rgba(0, 118, 56, 1);
+    --dl-color-investinregionsru-revolver: rgba(40, 24, 60, 1);
+    --dl-color-investinregionsru-silver50: rgba(196, 196, 196, 0.5);
+    --dl-color-investinregionsru-toryblue: rgba(13, 71, 161, 1);
+    --dl-color-investinregionsru-wildsand: rgba(247, 247, 247, 1);
+    --dl-color-wwwgeoportalksksk-boulder: rgba(119, 119, 119, 1);
+    --dl-color-wwwgeoportalksksk-gallery: rgba(237, 237, 237, 1);
+    --dl-color-wwwgeoportalksksk-palesky: rgba(108, 117, 125, 1);
+    --dl-color-wwwgeoportalksksk-white50: rgba(255, 255, 255, 0.5);
+    --dl-color-wwwgeoportalksksk-white80: rgba(255, 255, 255, 0.800000011920929);
+    --dl-color-databratislavask-dustygray: rgba(149, 149, 149, 1);
+    --dl-color-databratislavask-mineshaft: rgba(34, 31, 31, 1);
+    --dl-color-databratislavask-wedgewood: rgba(79, 125, 151, 1);
+    --dl-color-goparitycom-selectiveyellow: rgba(251, 188, 4, 1);
+    --dl-color-investinregionsru-dustygray: rgba(153, 153, 153, 1);
+    --dl-color-investinregionsru-endeavour: rgba(0, 97, 175, 1);
+    --dl-color-investinregionsru-mineshaft: rgba(55, 55, 55, 1);
+    --dl-color-investinregionsru-porcelain: rgba(236, 239, 241, 1);
+    --dl-color-wwwgeoportalksksk-amaranth: rgba(239, 58, 76, 1);
+    --dl-color-wwwgeoportalksksk-black176: rgba(0, 0, 0, 0.17599999904632568);
+    --dl-color-wwwgeoportalksksk-tealblue: rgba(5, 81, 96, 1);
+    --dl-color-databratislavask-botticelli: rgba(204, 222, 231, 1);
+    --dl-color-databratislavask-whitewhite: rgba(255, 255, 255, 1);
+    --dl-color-goparitycom-linearblackblack: rgba(0, 0, 0, 1);
+    --dl-color-goparitycom-linearwhitepolar: rgba(255, 255, 255, 1);
+    --dl-color-investinregionsru-mexicanred: rgba(162, 29, 54, 1);
+    --dl-color-investinregionsru-regentgray: rgba(135, 154, 164, 1);
+    --dl-color-investinregionsru-toryblue15: rgba(13, 71, 161, 0.15000000596046448);
+    --dl-color-investinregionsru-toryblue50: rgba(13, 71, 161, 0.5);
+    --dl-color-investinregionsru-whitewhite: rgba(255, 255, 255, 1);
+    --dl-color-wwwgeoportalksksk-bayofmany: rgba(46, 49, 146, 1);
+    --dl-color-wwwgeoportalksksk-brightsun: rgba(255, 200, 67, 1);
+    --dl-color-wwwgeoportalksksk-charlotte: rgba(158, 234, 249, 1);
+    --dl-color-wwwgeoportalksksk-mineshaft: rgba(51, 51, 51, 1);
+    --dl-color-goparitycom-linearcruisepolar: rgba(187, 237, 213, 1);
+    --dl-color-goparitycom-linearwhitecruise: rgba(255, 255, 255, 1);
+    --dl-color-investinregionsru-curiousblue: rgba(33, 136, 199, 1);
+    --dl-color-investinregionsru-thunderbird: rgba(213, 43, 30, 1);
+    --dl-color-technologickainkubaceorg-sail: rgba(185, 224, 247, 1);
+    --dl-color-wwwgeoportalksksk-blueribbon: rgba(13, 110, 253, 1);
+    --dl-color-goparitycom-linearcruisecruise: rgba(187, 237, 213, 1);
+    --dl-color-goparitycom-linearwhitegallery: rgba(255, 255, 255, 1);
+    --dl-color-investinregionsru-chateaugreen: rgba(76, 175, 80, 1);
+    --dl-color-investinregionsru-congressblue: rgba(0, 73, 147, 1);
+    --dl-color-technologickainkubaceorg-apple: rgba(99, 180, 73, 1);
+    --dl-color-technologickainkubaceorg-black: rgba(0, 0, 0, 1);
+    --dl-color-technologickainkubaceorg-froly: rgba(239, 117, 135, 1);
+    --dl-color-technologickainkubaceorg-monza: rgba(217, 13, 8, 1);
+    --dl-color-technologickainkubaceorg-shark: rgba(27, 29, 33, 1);
+    --dl-color-technologickainkubaceorg-white: rgba(255, 255, 255, 1);
+    --dl-color-investinregionsru-silverchalice: rgba(170, 170, 170, 1);
+    --dl-color-technologickainkubaceorg-affair: rgba(135, 76, 150, 1);
+    --dl-color-technologickainkubaceorg-edward: rgba(169, 173, 172, 1);
+    --dl-color-technologickainkubaceorg-mystic: rgba(222, 228, 235, 1);
+    --dl-color-technologickainkubaceorg-orient: rgba(0, 100, 124, 1);
+    --dl-color-wwwgeoportalksksk-guardsmanred: rgba(208, 0, 0, 1);
+    --dl-color-wwwgeoportalksksk-persiangreen: rgba(0, 179, 170, 1);
+    --dl-color-goparitycom-linearwhite50white50: rgba(255, 255, 255, 0.5);
+    --dl-color-technologickainkubaceorg-apricot: rgba(243, 153, 123, 1);
+    --dl-color-technologickainkubaceorg-black10: rgba(0, 0, 0, 0.10000000149011612);
+    --dl-color-technologickainkubaceorg-crimson: rgba(227, 25, 55, 1);
+    --dl-color-technologickainkubaceorg-funblue: rgba(25, 81, 160, 1);
+    --dl-color-technologickainkubaceorg-heather: rgba(195, 204, 214, 1);
+    --dl-color-technologickainkubaceorg-palesky: rgba(106, 118, 130, 1);
+    --dl-color-technologickainkubaceorg-zumthor: rgba(238, 246, 255, 1);
+    --dl-color-wwwgeoportalksksk-turquoiseblue: rgba(107, 195, 231, 1);
+    --dl-color-technologickainkubaceorg-amaranth: rgba(239, 44, 61, 1);
+    --dl-color-technologickainkubaceorg-cerulean: rgba(19, 181, 234, 1);
+    --dl-color-technologickainkubaceorg-toryblue: rgba(16, 91, 171, 1);
+    --dl-color-technologickainkubaceorg-wisppink: rgba(252, 232, 235, 1);
+    --dl-color-technologickainkubaceorg-blackrock: rgba(5, 4, 58, 1);
+    --dl-color-technologickainkubaceorg-brightsun: rgba(252, 192, 67, 1);
+    --dl-color-technologickainkubaceorg-cadetblue: rgba(168, 181, 194, 1);
+    --dl-color-technologickainkubaceorg-deepblush: rgba(224, 121, 146, 1);
+    --dl-color-technologickainkubaceorg-endeavour: rgba(6, 91, 170, 1);
+    --dl-color-technologickainkubaceorg-athensgray: rgba(246, 248, 249, 1);
+    --dl-color-technologickainkubaceorg-outerspace: rgba(53, 59, 65, 1);
+    --dl-color-technologickainkubaceorg-pictonblue: rgba(53, 171, 226, 1);
+    --dl-color-technologickainkubaceorg-regentgray: rgba(133, 147, 163, 1);
+    --dl-color-technologickainkubaceorg-thunderbird: rgba(181, 18, 27, 1);
+    --dl-color-technologickainkubaceorg-catalinablue: rgba(11, 67, 128, 1);
+    --dl-color-technologickainkubaceorg-chathamsblue: rgba(26, 65, 122, 1);
+    --dl-color-technologickainkubaceorg-congressblue: rgba(0, 75, 141, 1);
+    --dl-color-technologickainkubaceorg-midnightblue: rgba(0, 45, 98, 1);
+    --dl-color-investinregionsru-internationalkleinblue: rgba(0, 57, 166, 1);
+    --dl-color-technologickainkubaceorg-alizarincrimson: rgba(227, 27, 35, 1);
+    --dl-color-technologickainkubaceorg-lightningyellow: rgba(251, 209, 39, 1);
+    --dl-color-technologickainkubaceorg-linearblackblack: rgba(0, 0, 0, 1);
+    --dl-color-technologickainkubaceorg-linearwhitewhite: rgba(255, 255, 255, 1);
+    --dl-color-investinregionsru-linearmonzamonzaburntsienna: rgba(218, 7, 27, 1);
+    --dl-color-investinregionsru-linearsailskybluedenimmatisse: rgba(180, 220, 246, 1);
+    --dl-color-investinregionsru-linearcuriousblueendeavourendeavour: rgba(26, 143, 204, 1);
+    --dl-color-investinregionsru-linearcuriousbluedenimastronautjacarta: rgba(42, 148, 210, 1);
+    --dl-color-investinregionsru-linearmercurymercurygallerywildsandwildsandwildsand: rgba(227, 227, 227, 1);
+    --dl-color-investinregionsru-linearquillgraydesertstormdesertstormwildsandwildsand: rgba(227, 227, 226, 1);
+    --dl-color-technologickainkubaceorg-whitelinearwhitezumthorzumthorwhitewhitezumthorzumthor: rgba(255, 255, 255, 1);
+    --dl-color-technologickainkubaceorg-whitelinearwhiteathensgrayathensgraywhitewhiteathensgrayathensgray: rgba(255, 255, 255, 1);
+  }
+  .button {
+    color: var(--dl-color-theme-neutral-dark);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .input {
+    color: var(--dl-color-theme-neutral-dark);
+    cursor: auto;
+    padding: 0.5rem 1rem;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .textarea {
+    color: var(--dl-color-theme-neutral-dark);
+    cursor: auto;
+    padding: 0.5rem;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .list {
+    width: 100%;
+    margin: 1em 0px 1em 0px;
+    display: block;
+    padding: 0px 0px 0px 1.5rem;
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  .list-item {
+    display: list-item;
+  }
+  .teleport-show {
+    display: flex !important;
+    transform: none !important;
+  }
+  .thq-input {
+    color: var(--dl-color-theme-neutral-dark);
+    cursor: auto;
+    outline: none;
+    padding: 0.5rem 1rem;
+    align-self: stretch;
+    text-align: center;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-inputradius);
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .thq-input:focus {
+    outline: 1px solid var(--dl-color-theme-primary1);
+  }
+  .thq-button-filled {
+    gap: var(--dl-space-space-halfunit);
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+    cursor: pointer;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+    font-weight: bold;
+    padding-top: var(--dl-space-space-halfunit);
+    white-space: nowrap;
+    border-color: var(--dl-color-theme-primary1);
+    border-width: 1px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-buttonradius);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+    background-color: var(--dl-color-theme-primary1);
+  }
+  .thq-button-filled:hover {
+    fill: var(--dl-color-theme-secondary2);
+    color: var(--dl-color-theme-secondary2);
+    border-color: var(--dl-color-theme-primary2);
+    background-color: var(--dl-color-theme-primary2);
+  }
+  .thq-button-outline {
+    gap: var(--dl-space-space-halfunit);
+    fill: var(--dl-color-theme-primary1);
+    color: var(--dl-color-theme-primary1);
+    border: 1px solid;
+    cursor: pointer;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+    font-weight: bold;
+    padding-top: var(--dl-space-space-halfunit);
+    white-space: nowrap;
+    border-color: var(--dl-color-theme-primary1);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-buttonradius);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+  }
+  .thq-button-outline:hover {
+    fill: var(--dl-color-theme-secondary2);
+    color: var(--dl-color-theme-secondary2);
+    border-color: var(--dl-color-theme-primary2);
+    background-color: var(--dl-color-theme-primary2);
+  }
+  .thq-button-flat {
+    gap: var(--dl-space-space-halfunit);
+    fill: var(--dl-color-theme-primary1);
+    color: var(--dl-color-theme-primary1);
+    cursor: pointer;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+    font-weight: bold;
+    padding-top: var(--dl-space-space-halfunit);
+    white-space: nowrap;
+    border-color: transparent;
+    border-width: 1px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-buttonradius);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    justify-content: center;
+  }
+  .thq-button-flat:hover {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+    border-color: var(--dl-color-theme-primary2);
+    background-color: var(--dl-color-theme-primary2);
+  }
+  .thq-heading-1 {
+    font-size: 48px;
+    font-family: STIX Two Text;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .thq-heading-2 {
+    font-size: 35px;
+    font-family: STIX Two Text;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .thq-heading-3 {
+    font-size: 26px;
+    font-family: STIX Two Text;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .thq-body-large {
+    font-size: 18px;
+    font-family: Noto Sans;
+    line-height: 1.5;
+  }
+  .thq-body-small {
+    font-size: 16px;
+    font-family: Noto Sans;
+    line-height: 1.5;
+  }
+  .thq-team-image-round {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .thq-section-padding {
+    width: 100%;
+    display: flex;
+    padding: var(--dl-space-space-fiveunits);
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+  .thq-section-max-width {
+    width: 100%;
+    max-width: var(--dl-size-size-maxwidth);
+  }
+  .thq-img-ratio-1-1 {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: var(--dl-radius-radius-imageradius);
+  }
+  .thq-img-ratio-16-9 {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    border-radius: var(--dl-radius-radius-imageradius);
+  }
+  .thq-img-ratio-4-3 {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    border-radius: var(--dl-radius-radius-imageradius);
+  }
+  .thq-img-ratio-4-6 {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/6;
+    border-radius: var(--dl-radius-radius-imageradius);
+  }
+  .thq-img-round {
+    width: 100%;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .thq-flex-column {
+    gap: var(--dl-space-space-twounits);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+  .thq-flex-row {
+    gap: var(--dl-space-space-twounits);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+  }
+  .thq-grid-6 {
+    display: grid;
+    grid-gap: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .thq-grid-5 {
+    display: grid;
+    grid-gap: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .thq-card {
+    gap: var(--dl-space-space-oneandhalfunits);
+    display: flex;
+    padding: var(--dl-space-space-twounits);
+    align-items: stretch;
+    border-radius: var(--dl-radius-radius-cardradius);
+    flex-direction: column;
+  }
+  .thq-box-shadow {
+    box-shadow: 0px 0px 5px -2px var(--dl-color-theme-neutral-dark);
+  }
+  .thq-grid-3 {
+    display: grid;
+    grid-gap: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .thq-grid-4 {
+    display: grid;
+    grid-gap: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .thq-grid-2 {
+    width: 100%;
+    display: grid;
+    grid-gap: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr;
+  }
+  .thq-checkbox {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .thq-select {
+    cursor: pointer;
+    appearance: none;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-inputradius);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: var(--dl-color-theme-neutral-light);
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg width%3D%2220%22 height%3D%2220%22 xmlns%3D%22http%3A//wwww3org/2000/svg%22 viewBox%3D%220 0 20 20%22 fill%3D%22%23000%22%3E%3Cpath d%3D%22M4.293 7.293a1 1 0 011.414 0L10 11.586l4.293-4.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+  }
+  .thq-divider-horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: var(--dl-color-theme-neutral-dark);
+  }
+  .thq-icon-small {
+    width: 24px;
+    height: 24px;
+  }
+  .thq-button-icon {
+    fill: var(--dl-color-theme-secondary1);
+    padding: 3px;
+    transition: 0.3s;
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .thq-button-icon:hover {
+    fill: var(--dl-color-theme-secondary2);
+  }
+  .thq-icon-medium {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .thq-icon-x-small {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .thq-link {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, var(--dl-color-theme-primary1) 50%, var(--dl-color-theme-neutral-dark) 50%);
+    transition: background-position 300ms ease;
+    font-weight: 600;
+    background-clip: text;
+    background-size: 200% 100%;
+    background-position: 100%;
+    -webkit-text-fill-color: transparent;
+  }
+  .thq-link:hover {
+    background-position: 0 100%;
+  }
+  .thq-grid-auto-300 {
+    display: grid;
+    grid-gap: var(--dl-space-space-oneandhalfunits);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .thq-animated-group-vertical-reverse {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    display: flex;
+    animation: scroll-y 20s linear infinite;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    animation-direction: reverse;
+  }
+  .thq-animated-group-horizontal-reverse {
+    gap: var(--dl-space-space-unit);
+    display: flex;
+    animation: scroll-x 20s linear infinite;
+    min-width: 100%;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-around;
+    animation-direction: reverse;
+  }
+  .thq-animated-group-vertical {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    display: flex;
+    animation: scroll-y 20s linear infinite;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .thq-animated-group-horizontal {
+    gap: var(--dl-space-space-unit);
+    display: flex;
+    animation: scroll-x 20s linear infinite;
+    min-width: 100%;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-around;
+  }
+  .thq-animated-group-container-vertical {
+    gap: var(--dl-space-space-unit);
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .thq-animated-group-container-horizontal {
+    gap: var(--dl-space-space-unit);
+    display: flex;
+    overflow: hidden;
+  }.thq-mask-image-vertical {
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 1%, black 99%, transparent);
+    mask-image: linear-gradient(to bottom, transparent, black 1%, black 99%, transparent);
+  }
+  .thq-mask-image-horizontal {
+    -webkit-mask-image: linear-gradient(to right, transparent, black 1%, black 99%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 1%, black 99%, transparent);
+  }
+  .thq-img-scale {
+    transition: 0.3s;
+  }
+  .thq-img-scale:hover {
+    scale: 1.05;
+  }
+  .thq-animated-card-bg-1 {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    border-radius: var(--dl-radius-radius-cardradius);
+    background-color: var(--dl-color-theme-accent1);
+  }
+  .thq-animated-card-bg-2 {
+    transition: transform 0.3s;
+    border-radius: var(--dl-radius-radius-cardradius);
+    background-color: var(--dl-color-theme-accent2);
+  }
+  .thq-button-animated {
+    outline: none;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    border-width: 2px;
+  }
+  .thq-input::placeholder {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .thq-animated-group-container-vertical:hover div {
+    animation-play-state: paused;
+  }
+  .thq-animated-group-container-horizontal:hover div {
+    animation-play-state: paused;
+  }
+  .thq-animated-card-bg-2:has([data-animated="true"]:hover) {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(3deg) skew(0deg, 0deg);
+  }
+  .thq-animated-card-bg-1:has([data-animated="true"]:hover) {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-6deg) skew(0deg, 0deg);
+  }
+  .thq-button-animated:before {
+    top: 0;
+    left: -20%;
+    color: var(--dl-color-theme-neutral-light);
+    width: 200%;
+    height: 101%;
+    content: "";
+    z-index: 1;
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    border-radius: var(--dl-radius-radius-buttonradius);
+    background-color: var(--dl-color-theme-neutral-dark);
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  }
+  .thq-button-animated:hover::before {
+    color: var(--dl-color-theme-neutral-light);
+    z-index: -1;
+    transform: scaleX(1);
+  }
+  .Content {
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .Contrast {
+    font-size: 50px;
+    font-style: normal;
+    font-family: Italianno;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .imfografmain {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .contrast_main {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .submain {
+    font-size: 15px;
+    font-style: normal;
+    font-family: Abel;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .main {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .Text {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Charmonman;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .heroic {
+    font-size: 42px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .submain_big {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoMedium36 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoBold14upper {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoMedium18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoMedium361 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoMedium181 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoBold14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoMedium14upper {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoSemiBold36 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoBold14upper1 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexMonoBold141 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexSansRegular16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexSansSemiBold12upper {
+    font-size: 12px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexSansRegular161 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexSansRegular13\.3 {
+    font-size: 13.300000190734863px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexSansRegular12 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skIBMPlexSansRegular121 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skPoppinsBold18\.79 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skPoppinsBold31\.31 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skPoppinsSemiBold11\.9 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skInterRegular11\.25 {
+    font-size: 11.25px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skInterRegular11\.63 {
+    font-size: 11.625px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skRobotoRegular14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skRobotoRegular14underline {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skRobotoRegular13\.89 {
+    font-size: 13.890625px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.geoportalksk\skRobotoRegular13\.89underline {
+    font-size: 13.890625px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .technologickainkubace\orgIBMPlexSansBold12upper {
+    font-size: 12px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 1.5px;
+  }
+  .technologickainkubace\orgIBMPlexSansBold34 {
+    font-size: 34px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0.25px;
+  }
+  .technologickainkubace\orgIBMPlexSansRegular16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  .technologickainkubace\orgIBMPlexSansMedium14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0.25px;
+  }
+  .technologickainkubace\orgIBMPlexSansBold10upper {
+    font-size: 10px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 1.5px;
+  }
+  .technologickainkubace\orgIBMPlexSansBold14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0.10000000149011612px;
+  }
+  .technologickainkubace\orgIBMPlexSansBold20 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0.15000000596046448px;
+  }
+  .technologickainkubace\orgIBMPlexSansBold20upper {
+    font-size: 20px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0.15000000596046448px;
+  }
+  .technologickainkubace\orgIBMPlexSansMedium10 {
+    font-size: 10px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  .technologickainkubace\orgIBMPlexSansMedium18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0.75px;
+  }
+  .technologickainkubace\orgIBMPlexSansMedium12 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0.75px;
+  }
+  .technologickainkubace\orgIBMPlexSansBold16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0.15000000596046448px;
+  }
+  .technologickainkubace\orgIBMPlexSansRegular161 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  .technologickainkubace\orgIBMPlexSansMedium14underline {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0.25px;
+  }
+  .technologickainkubace\orgIBMPlexSansMedium16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0.75px;
+  }
+  .technologickainkubace\orgIBMPlexSansRegular14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0.25px;
+  }
+  .technologickainkubace\orgIBMPlexSansMedium34 {
+    font-size: 34px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  .technologickainkubace\orgIBMPlexSansRegular18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  .technologickainkubace\orgIBMPlexSansBold16upper {
+    font-size: 16px;
+    font-style: normal;
+    font-family: IBM Plex Sans;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+  }
+  .www\.bbc\comInterMedium15\.63underline {
+    font-size: 15.625px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: -0.36000001430511475px;
+  }
+  .www\.bbc\comInterRegular14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterRegular11\.44 {
+    font-size: 11.4375px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: -0.11999999731779099px;
+  }
+  .www\.bbc\comInterRegular12 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: -0.11999999731779099px;
+  }
+  .www\.bbc\comInterRegular11\.63 {
+    font-size: 11.625px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: -0.11999999731779099px;
+  }
+  .www\.bbc\comInterMedium28 {
+    font-size: 28px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: -0.5600000023841858px;
+  }
+  .www\.bbc\comInterBold28upper {
+    font-size: 28px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterRegular11\.81 {
+    font-size: 11.8125px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: -0.11999999731779099px;
+  }
+  .www\.bbc\comInterBold18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterRegular11\.25 {
+    font-size: 11.25px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: -0.11999999731779099px;
+  }
+  .www\.bbc\comInterMedium15\.5 {
+    font-size: 15.5px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium17\.86 {
+    font-size: 17.859375px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: -0.36000001430511475px;
+  }
+  .www\.bbc\comInterBold18upper {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterBold17\.86 {
+    font-size: 17.859375px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium13\.67 {
+    font-size: 13.671875px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium13\.34 {
+    font-size: 13.34375px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium13\.89 {
+    font-size: 13.890625px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium13\.78 {
+    font-size: 13.78125px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium13\.671 {
+    font-size: 13.671875px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterRegular11\.441 {
+    font-size: 11.4375px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterRegular11\.811 {
+    font-size: 11.8125px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterRegular11\.631 {
+    font-size: 11.625px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterItalic11\.44 {
+    font-size: 11.4375px;
+    font-style: italic;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterBold11\.44 {
+    font-size: 11.4375px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterBold13\.78 {
+    font-size: 13.78125px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .www\.bbc\comInterMedium15\.75 {
+    font-size: 15.75px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold24 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratMedium18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold48 {
+    font-size: 48px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratRegular16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold18upper {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold14upper {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratMedium12 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratSemiBold14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold481 {
+    font-size: 48px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold22 {
+    font-size: 22px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratMedium16underline {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold12upper {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratMedium16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratMedium14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratMedium141 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold36 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold36upper {
+    font-size: 36px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratMedium13\.5 {
+    font-size: 13.5px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratBold16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruMontserratRegular13\.36 {
+    font-size: 13.360000610351562px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruLucidaSansUnicodeRegular15 {
+    font-size: 15px;
+    font-style: normal;
+    font-family: Aboreto;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .investinregions\ruLucidaSansUnicodeRegular11\.48 {
+    font-size: 11.484375px;
+    font-style: normal;
+    font-family: Aboreto;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterSemiBold36 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterSemiBold28 {
+    font-size: 28px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterSemiBold14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterSemiBold30 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterRegular20 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterRegular16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterMedium20 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterRegular161 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterBold16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterThin16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 100px;
+    font-stretch: normal;
+    letter-spacing: -1px;
+  }
+  .data\bratislava\skInterSemiBold16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterThin161 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 100px;
+    font-stretch: normal;
+    letter-spacing: -1px;
+  }
+  .data\bratislava\skInterExtraLight16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 300px;
+    font-stretch: normal;
+    letter-spacing: -1px;
+  }
+  .data\bratislava\skInterExtraBold18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterMedium18 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterExtraBold15 {
+    font-size: 15px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterRegular14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .data\bratislava\skInterRegular16underline {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comInterRegular66\.94 {
+    font-size: 66.9375px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comInterRegular67\.5 {
+    font-size: 67.5px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsRegular20 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsMedium30 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsSemiBold16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsMedium14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsMedium14upper {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsMedium16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsMedium12 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsMedium141 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsMedium20 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsRegular16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsSemiBold161 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsRegular161 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsBold16 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 700px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsItalic12 {
+    font-size: 12px;
+    font-style: italic;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsMedium48 {
+    font-size: 48px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: -0.47999998927116394px;
+  }
+  .goparity\comPoppinsMedium301 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsRegular14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsSemiBold14 {
+    font-size: 14px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  .goparity\comPoppinsRegular12 {
+    font-size: 12px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400px;
+    font-stretch: normal;
+    letter-spacing: 0em;
+  }
+  @media(max-width: 991px) {
+    .thq-grid-4 {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media(max-width: 767px) {
+    .thq-section-padding {
+      padding: var(--dl-space-space-threeunits);
+    }
+    .thq-flex-column {
+      gap: var(--dl-space-space-oneandhalfunits);
+    }
+    .thq-flex-row {
+      gap: var(--dl-space-space-oneandhalfunits);
+    }
+    .thq-grid-6 {
+      grid-gap: var(--dl-space-space-oneandhalfunits);
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .thq-grid-5 {
+      grid-gap: var(--dl-space-space-oneandhalfunits);
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .thq-card {
+      padding: var(--dl-space-space-oneandhalfunits);
+    }
+    .thq-grid-3 {
+      grid-gap: var(--dl-space-space-oneandhalfunits);
+      grid-template-columns: 1fr 1fr;
+    }
+    .thq-grid-4 {
+      grid-gap: var(--dl-space-space-oneandhalfunits);
+      flex-direction: row;
+      grid-template-columns: 1fr 1fr;
+    }
+    .thq-grid-2 {
+      grid-gap: var(--dl-space-space-oneandhalfunits);
+      grid-template-columns: 1fr;
+    }
+    .thq-img-scale {
+      width: 100%;
+    }
+  }
+  @media(max-width: 479px) {
+    .thq-section-padding {
+      padding: var(--dl-space-space-oneandhalfunits);
+    }
+    .thq-flex-column {
+      gap: var(--dl-space-space-unit);
+    }
+    .thq-flex-row {
+      gap: var(--dl-space-space-unit);
+    }
+    .thq-grid-6 {
+      grid-gap: var(--dl-space-space-unit);
+      grid-template-columns: 1fr 1fr;
+    }
+    .thq-grid-5 {
+      grid-gap: var(--dl-space-space-unit);
+      grid-template-columns: 1fr 1fr;
+    }
+    .thq-grid-3 {
+      grid-gap: var(--dl-space-space-unit);
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+    .thq-grid-4 {
+      grid-gap: var(--dl-space-space-unit);
+      align-items: center;
+      flex-direction: column;
+      grid-template-columns: 1fr;
+    }
+    .thq-grid-2 {
+      grid-gap: var(--dl-space-space-unit);
+    }
+    .thq-grid-auto-300 {
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,574 @@
+
+.projects-page-container1 {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    }
+    .projects-page-projects-page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    background-color: rgba(238, 246, 255, 1);
+    }
+    .projects-page-body {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+    }
+    .projects-page-background {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: rgba(31, 58, 104, 1);
+    }
+    .projects-page-container2 {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    }
+    .projects-page-frame427318915 {
+    gap: 10px;
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .projects-page-frame4912 {
+    gap: -8px;
+    display: flex;
+    padding: 0 30px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    }
+    .projects-page-dalle20240905222659-aminimalistlogoforageoportalinc1 {
+    width: 81px;
+    height: auto;
+    align-self: stretch;
+    }
+    .projects-page-kskportal1 {
+    width: 103px;
+    height: 43px;
+    box-sizing: content-box;
+    }
+    .projects-page-container3 {
+    height: 77px;
+    display: flex;
+    padding: 0 30px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .projects-page-list {
+    gap: 50px;
+    display: flex;
+    padding: 0 1.1368683772161603e-13px 0 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    }
+    .projects-page-item1 {
+    height: 40px;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px 5px 0 0;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .projects-page-link10 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    }
+    .projects-page-text10 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+    }
+    .projects-page-item2 {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .projects-page-link11 {
+    display: flex;
+    align-items: flex-start;
+    }
+    .projects-page-text12 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+    }
+    .projects-page-item3 {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .projects-page-link12 {
+    display: flex;
+    align-items: flex-start;
+    }
+    .projects-page-text14 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+    }
+    .projects-page-item4 {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .projects-page-link13 {
+    display: flex;
+    align-items: flex-start;
+    }
+    .projects-page-text16 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+    }
+    .projects-page-item5 {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .projects-page-link14 {
+    display: flex;
+    align-items: flex-start;
+    }
+    .projects-page-text18 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+    }
+    .projects-page-item6 {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .projects-page-link15 {
+    display: flex;
+    align-items: flex-start;
+    }
+    .projects-page-text20 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+    }
+    .projects-page-container4 {
+    gap: 4px;
+    display: flex;
+    padding: 0 30px;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    }
+    .projects-page-link16 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .projects-page-text22 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: 22px;
+    }
+    .projects-page-link17 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .projects-page-text24 {
+    color: white;
+    height: auto;
+    text-align: left;
+    line-height: 22px;
+    }
+    .projects-page-section1 {
+    height: 1200px;
+    display: flex;
+    /* opacity: 0.50; */
+    padding: 100px;
+    /* overflow: hidden; */
+    align-self: stretch;
+    align-items: center;
+    /* flex-shrink: 0; */
+    justify-content: center;
+    background-color: var(--dl-color-technologickainkubaceorg-zumthor);
+    }
+    .projects-page-section2 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--dl-color-technologickainkubaceorg-catalinablue);
+    }
+    .projects-page-frame1 {
+    gap: 25px;
+    height: 279.9200439453125px;
+    display: flex;
+    padding: 25px 0 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(31, 58, 104, 1);
+    }
+    .projects-page-frame2 {
+    display: flex;
+    padding: 0 40px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+    }
+    .projects-page-ksk-portal-logo {
+    gap: -8px;
+    width: 469px;
+    height: 55px;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    }
+    .projects-page-dalle20240905222659-aminimalistlogoforageoportalinc2 {
+    width: 81px;
+    height: auto;
+    align-self: stretch;
+    }
+    .projects-page-kskportal2 {
+    width: 103px;
+    height: 43px;
+    box-sizing: content-box;
+    }
+    .projects-page-navigation {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    }
+    .projects-page-link18 {
+    width: 47.91669845581055px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    }
+    .projects-page-text26 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-link19 {
+    display: flex;
+    align-items: flex-start;
+    }
+    .projects-page-text28 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-link20 {
+    display: flex;
+    align-items: flex-start;
+    }
+    .projects-page-text30 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-link21 {
+    gap: 8px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    }
+    .projects-page-twitter-logo-icon {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    }
+    .projects-page-text32 {
+    color: rgba(255, 255, 255, 1);
+    width: 1px;
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-frame3 {
+    width: 18px;
+    height: 18px;
+    }
+    .projects-page-link22 {
+    gap: 8px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    }
+    .projects-page-facebook-logo-icon {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    }
+    .projects-page-text33 {
+    color: rgba(255, 255, 255, 1);
+    width: 1px;
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-frame4 {
+    width: 18px;
+    height: 18px;
+    }
+    .projects-page-link23 {
+    gap: 8px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    }
+    .projects-page-instagram-logo-icon {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    }
+    .projects-page-text34 {
+    color: rgba(255, 255, 255, 1);
+    width: 1px;
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-frame5 {
+    width: 18px;
+    height: 18px;
+    }
+    .projects-page-frame427318923 {
+    gap: 25px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    justify-content: center;
+    }
+    .projects-page-frame6 {
+    gap: 16px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    }
+    .projects-page-paragraph1 {
+    width: 583.9840087890625px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    }
+    .projects-page-text35 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-form {
+    gap: 16px;
+    width: 320px;
+    height: 40.9200439453125px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    }
+    .projects-page-input {
+    color: rgba(156, 163, 175, 1);
+    display: flex;
+    padding: 8px 16px;
+    overflow: hidden;
+    flex-grow: 1;
+    font-size: 18px;
+    text-align: left;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 400;
+    border-radius: 6px 0 0 6px;
+    background-color: rgba(255, 255, 255, 1);
+    }
+    .projects-page-button {
+    display: flex;
+    padding: 8px 16px;
+    flex-grow: 1;
+    align-items: center;
+    border-radius: 0 6px 6px 0;
+    background-color: rgba(34, 197, 94, 1);
+    }
+    .projects-page-text37 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 16px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-frame7 {
+    gap: 8px;
+    display: flex;
+    overflow: hidden;
+    align-self: stretch;
+    align-items: center;
+    flex-direction: column;
+    }
+    .projects-page-paragraph2 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    }
+    .projects-page-text39 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    .projects-page-paragraph3 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    }
+    .projects-page-text41 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+    }
+    #dropdown {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .map-iframe {
+      border: none;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+      border-radius: 8px; 
+      width: 100%;
+      height: 1000px;
+    }
+    #map {
+      width: 100%;
+      height: 1000px;
+    }
